@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1220px ;
+}
+header{
+    padding: 20px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+}
+.ota ul{
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    margin-left: auto;
+    margin-top: 10px;
+    border: none;   
+}
+.business-text{
+   width: 550px;
+   font-size: 25px;
+
+}
+.business-text button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+
+}
+
+.business{
+    display: flex;
+    padding: 100px 0;
+    gap: 80px;
+    align-items: center;
+}
+.btn2{
+    padding: 15px;
+    color: white;
+    background-color: #1AAB7B;
+    border-radius: 15px;
+}
+.ota button{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+.ota button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+}
+.ota ul li:hover{
+    color: #1AAB7B;
+}
+.next button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+}
+h2{
+   text-align: center;  
+   
+}
+.card{
+font-size: 20px;
+border: 1px solid gray  ;
+width: 384px;
+padding: 40px 30px;
+font-size: 22px;
+}
+.card p{
+    padding: 20px;
+}
+.help{
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap; 
+}
+.card h3::after{
+    content: url(./img/Group\ 39346.png);
+    margin-left: 120px;
+}
+
+.card:hover{
+    background-color: green;
+    color: white;
+
+}
+
+
+
